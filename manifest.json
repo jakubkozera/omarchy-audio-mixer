@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "jakubkozera.audio-mixer",
+  "name": "Audio Mixer",
+  "version": "1.0.0",
+  "author": "Jakub Kozera",
+  "license": "MIT",
+  "description": "Every output and input device with its own volume, mute and default switch, plus a per-app mixer",
+  "kinds": [
+    "bar-widget"
+  ],
+  "omarchy": {
+    "clonedFrom": "omarchy.audio"
+  },
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Audio Mixer",
+    "description": "Every output and input device with its own volume, mute and default switch, plus a per-app mixer",
+    "category": "Audio",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
